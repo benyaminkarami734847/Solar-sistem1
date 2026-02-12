@@ -1,0 +1,63 @@
+.bent {
+
+background-color:rgb(6, 101, 190) ;
+
+box-shadow: 0 19px 30px rgba(0, 0, 0, 0.3);
+font-family: sans-serif;
+width: 800px;
+height: 500px;
+padding: 15px;
+border-radius: 20px;
+ background: linear-gradient(rgb(0, 174, 255), #087de2, #0554af); 
+}
+.bdnheg {
+
+text-align: center;
+
+
+}
+.uierh{
+   filter: drop-shadow(0 0 20px #4dafff);
+
+}
+.urf{
+transition: 0.4s ease;
+
+}
+.urf:hover{
+transform: scale(1.01);
+
+
+
+}
+.pens{
+
+transition: 0.4s ease;
+}
+.pens:hover{
+transform: scale(1.01);
+
+}
+.gen{
+
+transition: 0.5s ease;
+
+}
+.gen:hover{
+
+transform: scale(1.01);
+
+}
+.io{
+ animation: spin 50s linear infinite; ;
+
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
